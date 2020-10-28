@@ -1,0 +1,41 @@
+/*.site {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr 3fr;
+	grid-template-areas:
+		"title title"
+		"main masthead"
+		"main sidebar"
+		"footer footer";*/
+}
+
+@media screen and (min-width: 600px) {
+	.site {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 150px 100px;
+		grid-template-areas:
+			"side title side"
+			"side nav-bar side"
+			"card card card";
+	}
+}
+
+.nav-bar ul {
+	grid-area: nav-bar;
+}
+
+.page-title {
+	grid-area: title;
+}
+
+.card {
+	grid-area: card;
+}
+
+.footer-content {
+	grid-area: footer;
+}
+figure{
+    grid-area: card;
+}

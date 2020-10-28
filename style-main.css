@@ -1,0 +1,60 @@
+/*-- ACCESSIBILITY --*/
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	overflow: hidden;
+}
+
+
+/*-- GENERAL --*/
+body {
+    background-color: rgb(120, 10, 35);
+    color: seashell;
+}
+a {
+    color: maroon;
+    text-decoration: none;
+
+}
+footer ul li{
+    font: bold 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: seashell;
+    color: maroon;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.contact {
+    list-style: none;
+}
+
+.card {
+    display: inline-block;
+}
+.caption {
+    color: seashell;
+}
+.main ul {
+    list-style: none;
+}
+
+/*-- NAV --*/
+.nav-bar ul {
+    list-style: none;
+}
+
+.nav-bar ul li {
+    font: bold 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: seashell;
+    color: maroon;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.nav-bar ul li:hover {}
